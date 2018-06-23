@@ -6,3 +6,6 @@ This tutorial is designed for programmers who decide to learn Python programming
 
 # Prerequisites
 You should have a basic understanding of Computer Programming terminologies.
+
+# Issues?
+If you find any issues, do a pull request or set it up as a issue
