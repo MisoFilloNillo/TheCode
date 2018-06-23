@@ -42,9 +42,9 @@ then to install an editor if cases the linux doesnt have a default like ubuntu:
 
 `apt-get install nano`
 
-# Manual Installation
+# Manual Installation Windows
 
-Go to the Command Prompt and type in `python -m pip -U https://github.com/Rapptz/discord.py/archive/rewrite.zip`
+Go to the Command Prompt and type in `python -m pip install https://github.com/Rapptz/discord.py/archive/rewrite.zip` or `py -3 -m pip install https://github.com/Rapptz/discord.py/archive/rewrite.zip`
 
 then it should install!
 
