@@ -1,5 +1,6 @@
 import discord
 from discord.ext import commands
+import random
 
 bot = commands.Bot(command_prefix="any_prefix_as_much_as_you_want_")
 client = discord.Client()
@@ -19,7 +20,22 @@ async def cookie(ctx):
 async def ping(ctx):
 """Ping pong"""
   await ctx.send("ctx.message.author.mention, Pong")
+
   
+@bot.command(name='8ball')
+async def _ball(ctx):
+  
+"""Random stuff lol"""
+  await ctx.send(random.choice(["No",
+                                "Yes lol",
+                                "Think again son",
+                                "UMM mAybE?",
+                                "Epic is autismo lul",
+                                "Nah fam",
+                                "Ye blud",
+                                "Shut it boi"]))
+ 
+                                
  @bot.command()
 async def userinfo(ctx, member : discord.Member):
     embed = discord.Embed(title="User Info for {}".format(member.name), colour=mc)
